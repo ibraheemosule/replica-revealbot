@@ -1,0 +1,395 @@
+* {box-sizing: border-box;}
+
+/*this is the style for the entire body*/
+
+body 	{margin-right:20px;
+	margin-left: 20px;}
+
+
+/*this is the style for the header*/
+
+header {position: fixed;
+	display: inline-block;
+	margin-top:-70px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:125px;
+	background-color: white;
+	z-index:1;}
+
+
+/*this is the style for the nav and anchor elements
+ nested inside a div element in the header tag*/
+
+nav a {text-decoration: none;
+	padding:10px;
+	margin:10px;
+	color:black;
+	background-color: white;}
+
+
+/*this is the inline style for the "revealbot" 
+nested inside the div tag in the header tag*/
+
+span.a {font-size:25px;
+	margin-left:150px;
+	margin-right: 150px;}
+
+
+/*this is the inline style for the "new" text
+nested inside the div tag in the header tag*/
+
+span.b {background-color: black;
+	border-radius: 8px;
+	color: white;}
+
+
+/*this is the inline style for the "sign up free" 
+nested inside the div tag in the header tag*/
+
+span.c {background-color: lightcoral;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;}
+
+
+/*this is the inline style for the "imagine if your 
+ads managed themselves"
+nested inside the div tag in the article tag*/
+
+span#d {font-size:20px;}
+
+
+/*this is the inline style for the div tag containing the "Start a 14-day trial"
+ in the article tag*/
+
+span.d a{text-decoration: none;
+	background-color: lightcoral;
+	padding: 15px;
+	margin-left: 150px;
+	margin-right:-130px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 6px;
+	color: white;}
+
+
+
+/*this is the inline span for the "request a demo" in the p tag inside the
+article section*/
+
+
+/*the rest of the css is self explanatory as long as you follow the lettering
+and numbering*/
+
+span#e a{text-decoration: none;
+	border-style: solid;
+	padding: 12px;
+	margin-left: 150px;
+	margin-right:-130px;
+	margin-top: 100px;
+	margin-bottom:100px;
+	border-radius: 6px;
+	color: black;}
+
+div.one {padding-right:200px;
+	margin-left: 150px;
+	margin-bottom:50px;
+	word-wrap:break-word;}
+
+div.two {width:100%;
+	height: 10px;
+	margin-top: 70px;
+	margin-left:250px;
+	display: inline-block;}
+
+span#f {margin-left: 80px;}
+
+div.three{position: relative;
+	display: inline-block;
+	width:100%;
+	height: 600px;
+	border-style: solid;
+	color: white;
+	background-color: rgb(12, 13, 20);
+	padding-top:90px;
+	padding-left: 30px;
+	margin-left:px;
+	margin-right:px;
+	margin-top: 60px;
+	border-radius: 10px;
+	box-sizing: border-box;}
+
+div.four{margin-top: 100px;
+	position: relative;}
+
+div.five{margin-left: 300px;
+	margin-top: 0px;
+	position: relative;}
+
+div.six {margin-left: 200px;
+	position: relative;}
+
+div.seven	{display: inline-block;
+		padding: 50px;
+		border: 2px solid;
+		border-radius: 5px;
+		box-shadow: 7px 7px dodgerblue;
+		margin-top:50px;
+		margin-left: 150px;
+		word-wrap: break-word;
+		text-align: center;}
+
+div.eight	{display: inline-block;
+		padding: 50px;
+		border: 2px solid;
+		border-radius: 5px;
+		box-shadow: 7px 7px green;
+		margin-top:50px;
+		margin-left: 50px;
+		word-wrap: break-word;
+		text-align: center;}
+
+div.nine	{display: inline-block;
+		padding: 50px;
+		border: 2px solid;
+		border-radius: 5px;
+		box-shadow: 7px 7px yellow;
+		margin-top:50px;
+		margin-left: 50px;
+		word-wrap: break-word;
+		text-align: center;}
+
+div.ten		{margin-left: 300px;
+		margin-top: 40px;
+		position: relative;}
+
+div.eleven	{position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 500px;
+		border-style: solid;
+		color: white;
+		background-color: rgb(12, 13, 20);
+		padding-top:80px;
+		padding-left: 150px;
+		padding-right: 200px;
+		margin-top: 60px;}
+
+div.twelve	{display:inline-block;
+		margin-right: 150px;
+		margin-left: 100px;
+		margin-top: 100px;
+		margin-bottom: 50px;}
+
+
+
+span#g	{color: lightcoral;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-left: 600px;}
+
+span#h	{white-space: pre;
+	line-height: 50px;
+	margin-left: 400px;
+	font-size: 40px;}
+	
+span#i	{white-space: pre;
+	display: inline-block;
+	line-height: 40px;
+	margin-left: 150px;
+	margin-top: 120px;
+	font-size: 30px;}
+
+span#j	{white-space: pre;
+	display: inline-block;
+	color: grey;
+	line-height: 20px;
+	margin-left: 100px;
+	margin-top:5px;
+	font-size: 18px;}
+
+span#k	{text-align: center;
+	color: lightcoral;
+	font-size:10px;}
+
+span#l	{text-align: center;
+	margin-top: 80px;
+	display: block;
+	font-size: 30px;}
+
+span#m	{display: inline;
+	font-size: 60px;
+	text-decoration: underline;
+	text-decoration-color:lightcoral;
+	white-space: pre;}
+
+span#n	{display: inline;
+	font-size: 60px;
+	margin-left: 500px;
+	padding-right:100px;
+	text-decoration: underline;
+	text-decoration-color:lightcoral;}
+
+span#o	{display: inline-block;
+	color: grey;
+	white-space: pre;}
+
+span#p	{display: inline-block;
+	white-space: pre;
+	margin-left: 170px;}
+
+span#q	{display: inline-block;
+	white-space: pre;
+	margin-left: 150px;
+	color: grey;}
+
+span#r a{display: block;
+	margin-top:100px;
+	margin-left: 610px;
+	color: lightcoral;
+	text-decoration: none;
+	text-decoration-color: lightcoral;}
+
+span#s	{display: block;
+	margin-left: 480px;
+	color: lightcoral;
+	font-size:10px;}
+
+span#t	a{display: block;
+	margin-top: 50px;
+	color: lightcoral;
+	text-decoration: none;}
+
+span#u	{display: inline;
+	font-size: 60px;
+	margin-left: 180px;
+	text-decoration: underline;
+	text-decoration-color:lightcoral;
+	white-space: pre;}
+
+span.v	{font-size: 25px;}
+
+span.w a{text-decoration: none;
+	background-color: lightcoral;
+	display: inline-block;
+	padding: 13px;
+	margin-top: 30px;
+	border-radius: 6px;
+	color: white;}
+
+
+span#x a{text-decoration: none;
+	border-style: solid;
+	padding: 12px;
+	margin-left: 50px;
+	margin-top: 100px;
+	border-radius: 6px;
+	color: black;}
+
+span#y	a{font-size: 12px;
+	padding: 20px;
+	color: gray;
+	text-decoration: none;}
+
+img	{padding-right: 50px;
+	filter: grayscale(100%);}
+
+
+.float	{float: right;
+	padding: 30px;
+	margin-left: 10px;}
+
+h1	{font-size: 70px;
+	margin-bottom:0px;}
+
+.position1	{position: absolute;
+		top: 100px;}
+
+.position2	{position: absolute;
+		top: 310px;
+		left: 250px;}
+
+.position3	{position: absolute;
+		top: 310px;
+		left: 600px;}
+
+.position4	{position: absolute;
+		top: 310px;
+		right: 250px;}
+
+
+.position5	{position: absolute;
+		top: 30px;
+		left: 580px;}
+
+.position6	{position: absolute;
+		left: 390px;
+		bottom:40px;}
+
+hr		{display: block;
+		width: 1000px;
+		border-top: 3px solid whitesmoke;
+		border-bottom:0px solid whitesmoke;
+		border-left: solid whitesmoke;
+		border-right: solid whitesmoke;
+		margin-top: 80px;
+		margin-bottom: 80px;}
+
+p.font	{text-align: center;
+	font-size: 40px;
+	white-space: pre;}
+
+p.font2	{font-size: 30px;}
+
+p.font3	{font-size: 20px;
+	color: grey;}
+
+p.font4	{display: inline-block;
+	font-size: 20px;
+	color: grey;}
+
+p.font5	{font-size: 20px;
+	color: grey;
+	margin-left:100px;
+	display: inline-block;}
+
+p.fontsize	{font-size: 65px;
+		display: block;
+		padding-top: 0px;
+		margin-top: 0px;
+		margin-bottom:0px;}
+
+p.font6 a	{display: block;
+		padding-bottom: 0px;
+		margin-left:700px;
+		color: lightcoral;
+		text-decoration: none;}
+
+
+p.align		{text-align: center;
+		white-space: pre;
+		color: grey;
+		font-size: 20px;}
+
+
+
+ul		{display: inline-block;
+		list-style: none;
+		margin-left: 50px;
+		margin-top: 70px;
+		font-size:18px;}
+
+ a[title="footer"]	{display: inline-block;
+		padding-top: 20px;
+		transition-duration: 0s;
+		color: grey;
+		list-style: none;
+		text-decoration: none;}
+
+a:hover		{color:#FF4040;}
+
+
+
+
+

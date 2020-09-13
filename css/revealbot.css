@@ -1,0 +1,525 @@
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+
+.navbar-default .navbar-brand {
+    color: unset;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: unset;
+    background-color: unset;
+    cursor: inherit;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: lightcoral !important;
+}
+.label {
+    border-radius: 2em;
+}
+
+main.container {
+    margin-top: 50px;
+}
+h1 {
+    font-size: 300%;
+    font-weight: 900;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.ad-quote {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: grey;
+}
+
+section div .btn-md {
+    padding: 10px 12px;
+    margin-right: 3%;
+    border-width: 0.5px;
+}
+
+section div .btn-default {
+    border-color: black;
+    border-width: 3px;
+    padding: 8px 10px;
+}
+
+section div .img-rounded {
+    margin-top: 10px;
+}
+section div.buttons {
+    margin-left: 25%;
+}
+
+main button.btn-md{
+    margin-bottom: 10px;
+}
+
+div.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+section.two {
+    margin: 80px 2%;
+    background-color: rgb(5, 7, 22);
+    color: white;
+    padding: 8% 7% 7% 5%;
+    border-radius: 10px;
+}
+p.benefit {
+    height: 60px;
+    font-size: smaller;
+    color: lightcoral;
+}
+
+article.second p, article.third p {
+    text-align: center;
+    font-size: x-small;
+    color: lightcoral;
+}
+article.second p.last {
+    font-size: 100%;
+}
+
+aside h4 {
+       font-size: 170%; 
+       line-height: 37px;
+}
+aside p, article.second aside div p {
+    font-size: medium;
+    color: gray;
+}
+article.second aside div p {
+    font-size: 105%;
+    font-weight: normal;
+}
+
+hr {
+    border-width: 3px;
+    margin-top: 70px;
+    width: 80%;
+}
+
+aside hr {
+border-color: lightcoral;
+border-width: 3px;
+width: 80%;
+margin-top: 0;
+margin-left: 10%;
+margin-right: initial;
+}
+
+article.second img {
+    margin-top: 10px;
+}
+
+article.third p:nth-of-type(1) {
+    margin-left: 8%;
+}
+article.third p:nth-of-type(2) {
+    margin-left: initial;
+    color: gray;
+    font-size: 120%;
+    margin-top: 70px;
+
+}
+
+article.third, article.third h3{
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+}
+
+article.third div.grid {
+    display: block;
+}
+
+article.third div.grid div {
+    margin-top: 70px;
+    border: 2px solid black;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 7px 7px dodgerblue;
+    padding: initial;
+    text-align: center;
+}
+
+article.third div.grid div:nth-of-type(2) {
+    box-shadow: 7px 7px green;
+}
+
+article.third div.grid div:nth-of-type(3) {
+    box-shadow: 7px 7px yellow;
+}
+
+div.grid h4 {
+    font-size: 200%;
+    font-weight: 600;
+    margin-left: 7%;
+}
+
+article.third div.grid div p:nth-of-type(1){
+    font-size: 125%;
+    color: gray;
+    margin-top: 30px;
+}
+
+article.third div.grid div p:nth-of-type(2){
+    font-size: smaller;
+    color: lightcoral;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+div.grid aside {
+    margin-top: 40px;
+}
+
+div.grid aside h1 {
+font-weight: 500;
+}
+
+div.grid aside hr {
+    margin-left: 28%;
+    width: 40%;
+}
+
+article.third div.grid aside p{
+    font-size: 125%;
+    color: gray;
+}
+
+section.three {
+    margin: 80px 2%;
+    background-color: rgb(5, 7, 22);
+    color: white;
+    padding: 8% 12%;
+}
+
+section.three h5 {
+    font-size: 165%;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+section.three .btn-default {
+    color: white;
+    background-color: transparent;
+}
+
+footer div.grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding-right: 10%;
+    margin-right: 0;
+}
+
+footer div.grid div{
+    width: 240px;
+}
+
+footer div.grid div p {
+    color: gray;
+    font-size: 110%;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+footer div.grid div p:hover {
+    color: lightcoral;
+    }
+
+footer div.grid div p:nth-of-type(1){
+    font-weight: 900;
+    color: black;
+}
+
+div.last {
+    margin-top: 70px;
+}
+
+div.last img{
+  margin: auto 2%;
+  display: block;
+  margin-top: 20px;
+}
+div.last img:nth-of-type(1){
+    margin-left: 10%;
+  }
+
+div.last span a {
+font-size: smaller;
+color: gray;
+text-decoration: none;
+}
+div.last span {
+    margin: auto 2%;
+    display: block;
+}
+div.last span:nth-of-type(1) {
+    margin-left: 5%;
+}
+@media screen and (max-width: 600px){
+    div.last span:nth-of-type(1) {
+        margin-left: 2% !important;
+    }
+    article.second img.alignCenter {
+        margin-top: 10px;
+        margin-left: 45%;
+    }
+}
+@media screen and (min-width: 600px){
+    footer div.grid {
+        flex-flow: nowrap;
+    }
+    div.last span, div.last img {
+        display: initial;
+    }
+   
+}
+
+@media screen and (min-width: 768px){
+    .container-fluid .navbar-brand {
+        margin-left: 0 !important;
+        margin-right: 5px;
+        font-size: small;
+        font-weight: 900;
+            padding: 15px 0;
+    }
+    .nav li {
+        margin: auto 0px;
+        font-size: small;
+       }
+    .nav li button {
+        font-size: small;
+        padding: auto 0.2px;
+       }
+    .ad-quote {
+            font-size: 17px;
+            margin-bottom: 25px;
+            text-align: initial;
+            color: initial;
+       }
+    main.container {
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 300%;
+        font-weight: 700;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    section div.buttons {
+        margin-left: 0%;
+    }
+    section div .btn-md {
+        padding: 5px 5px;
+    }
+    section div .btn-default {
+        border-width: 3px;
+        padding: 3px 5px;
+    }
+    div.highlights {
+        flex-wrap: nowrap;
+    }
+    h2 {
+        margin-top: -30px;
+        padding-left: 32% !important;
+        padding-right: 22% !important;
+        font-size: 270%;
+    }
+    h3 {
+        font-size: 270%;
+        padding-left: 8% !important;
+        margin-top: -5px;
+    }
+    section aside {
+        margin-top: 220px;
+        padding-right: 5%;
+    }
+    article.second {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+  
+   article.second div {
+       text-align: center;
+   }
+   article.second div p {
+    font-size: 190%;
+    color: initial;
+    margin-bottom: 50px;
+   }
+   article.second p.last {
+ margin-left: 10%;
+}
+article.third div.grid {
+    display: grid;
+    padding: unset;
+   grid-template-areas: '. . .' '. . .';
+   grid-template-columns: 29% 29% 29%;
+ column-gap: 4.3%;
+}
+article.third div.grid div {
+    height: 320px;
+    padding: 25% 10% 0% 10%;
+}
+article.third p:nth-of-type(2) {
+    margin-left: 7%;
+    margin-top: 10px;
+}
+
+article.third div.grid aside p{
+    margin-left: -5%;
+}
+section.three {
+    padding-right: 20%;
+}
+footer div.grid {
+    margin-left: 2%;
+}
+}
+@media screen and (max-width: 850px){
+div.last img:nth-of-type(1){
+    margin: 20px auto;
+  }
+  div.last img {
+      display: block;
+      width: 30% !important;
+      margin: 20px auto;
+
+  }
+  div.last span:nth-of-type(1) {
+      margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 850px){
+    .container-fluid .navbar-brand {
+        margin-left: 0 !important;
+        margin-right: 20px;
+        font-size: large;
+            padding: 15px 0;
+    }
+    .nav li {
+        margin: auto 0px;
+       }
+       h1 {
+        font-size: 300%;
+    }
+    article.third div.grid div p:nth-of-type(2){
+        margin-top: 30px;
+    }
+    }
+    @media screen and (min-width: 908px){
+        .container-fluid .navbar-brand {
+            margin-left: 20% !important;
+            margin-right: 100px;
+        }
+        .nav li {
+            margin: auto 1.5px;
+            font-size: small;
+           }
+    }
+@media screen and (min-width: 960px){
+    .container-fluid .navbar-brand {
+        margin-left: 15% !important;
+        margin-right: 80px;
+    }
+    .nav li {
+        margin: auto 1px;
+        font-size: medium;
+       }
+  
+    }
+    @media screen and (min-width: 992px){
+        h1 {
+            font-size: 350%;
+        }
+        div.last span:nth-of-type(1) {
+            margin-left: 15%;
+        }
+    }
+@media screen and (min-width: 1013px){
+    .container-fluid .navbar-brand {
+        margin-left: 25% !important;
+        margin-right: 120px;
+    }
+    .nav li {
+        margin: auto 2px;
+       }
+       h1 {
+        font-size: 420%;
+    }
+    section div .btn-md {
+        padding: 10px 12px;
+        margin-right: 3%;
+        border-width: 0.5px;
+    }
+    
+    section div .btn-default {
+        border-color: black;
+        border-width: 3px;
+        padding: 8px 10px;
+    }
+}
+@media screen and (min-width: 1100px){
+        .container-fluid .navbar-brand {
+            margin-left: 40% !important;
+            margin-right: 150px;
+        }
+        .nav li {
+            margin: auto 4px;
+           }
+}
+ @media screen and (min-width: 1190px){
+            .container-fluid .navbar-brand {
+                margin-left: 40% !important;
+                margin-right: 180px;
+            }
+      .nav li {
+                margin: auto 8px;
+         }
+}
+ @media screen and (min-width: 1200px){
+     .container {
+          width: 1115px;
+    }
+}
+@media screen and (min-width: 1220px){
+footer div.grid {
+    display: grid;
+    grid-template-areas: '. . . . .';
+    justify-content: space-between;
+    padding-right: 10%;
+    margin-right: 30%;
+}
+}
+@media screen and (min-width: 1270px){
+.container-fluid .navbar-brand {
+    margin-left: 40% !important;
+    margin-right: 230px;
+    font-size: x-large;
+}
+.nav li {
+    margin: auto 10px;
+   }
+   h1 {
+    font-size: 450%;
+}
+}

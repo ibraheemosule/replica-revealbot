@@ -242,11 +242,13 @@ footer div.grid div p {
 
 footer div.grid div p:hover {
     color: lightcoral;
+    cursor: pointer;
     }
 
 footer div.grid div p:nth-of-type(1){
     font-weight: 900;
     color: black;
+    cursor: not-allowed;
 }
 
 div.last {
@@ -274,6 +276,11 @@ div.last span {
 div.last span:nth-of-type(1) {
     margin-left: 5%;
 }
+
+div.last span a:hover {
+    color: lightcoral;
+}
+
 @media screen and (max-width: 600px){
     div.last span:nth-of-type(1) {
         margin-left: 2% !important;
